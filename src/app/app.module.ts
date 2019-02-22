@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavComponent } from './components/nav/nav.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { PromisesComponent } from './components/promises/promises.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
+    HomePageComponent,
+    PromisesComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
