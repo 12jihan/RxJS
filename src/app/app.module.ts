@@ -7,6 +7,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { PromisesComponent } from './components/promises/promises.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ObservablesComponent } from './components/observables/observables.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     NavComponent,
     HomePageComponent,
     PromisesComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ObservablesComponent
   ],
   imports: [
     BrowserModule,
